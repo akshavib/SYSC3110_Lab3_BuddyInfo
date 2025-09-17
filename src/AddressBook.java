@@ -22,6 +22,10 @@ public class AddressBook {
 
     public static void main(String[] args) {
         System.out.println("****** Address Book ******");
+        BuddyInfo myBuddy = new BuddyInfo("Sonita", "67 Lollipop Drive", "905-295-1953");
+        AddressBook addressBook = new AddressBook();
+        addressBook.addBuddy(myBuddy);
+        addressBook.removeBuddy(0);
     }
 }
 
