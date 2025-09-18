@@ -4,7 +4,7 @@ public class AddressBook {
     private ArrayList<BuddyInfo> buddyBook;
 
     public AddressBook(){
-        buddyBook = new ArrayList<>();
+        this.buddyBook = new ArrayList<>();
     }
 
     public void addBuddy(BuddyInfo buddy){
