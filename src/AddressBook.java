@@ -9,13 +9,13 @@ public class AddressBook {
 
     public void addBuddy(BuddyInfo buddy){
         if (buddy != null){
-            buddyBook.add(buddy);
+            this.buddyBook.add(buddy);
         }
     }
 
     public BuddyInfo removeBuddy(int index){
         if (index >= 0 && index <= buddyBook.size()){
-            return buddyBook.remove(index);
+            return this.buddyBook.remove(index);
         }
         return null;
     }
